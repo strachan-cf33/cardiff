@@ -1,0 +1,42 @@
+﻿*{
+	box-sizing: border-box;
+	
+}
+
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: #B2DFDB;
+	font-size:18px;
+}
+h1{
+	color: #2196F3;
+}
+.row {
+	width:60%;
+	background-color:yellow;
+	border:solid;
+	padding:5px;
+}
+.row::after{
+	content:'';
+	clear:both;
+	display:block;
+}
+.dark {
+	background-color: #3F51B5;
+	max-width:30%;
+	padding:20px;
+	color:white;
+	border: solid;
+	border-color: fuchsia;
+	float:left;
+}
+.light {
+	background-color:#C5CAE9;
+	max-width:30%;
+	padding:20px;
+	color:white;
+	border: solid;
+	border-color: fuchsia;
+}
